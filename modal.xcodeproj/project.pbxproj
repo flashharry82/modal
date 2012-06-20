@@ -15,6 +15,8 @@
 		E702B9831591E3D2008331A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E702B9821591E3D2008331A9 /* AppDelegate.m */; };
 		E702B9861591E3D2008331A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E702B9851591E3D2008331A9 /* ViewController.m */; };
 		E702B9891591E3D2008331A9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E702B9871591E3D2008331A9 /* ViewController.xib */; };
+		E702B9921591E5C4008331A9 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E702B9901591E5C4008331A9 /* secondViewController.m */; };
+		E702B9931591E5C4008331A9 /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E702B9911591E5C4008331A9 /* secondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,18 @@
 		E702B9721591E3D2008331A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E702B9741591E3D2008331A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E702B9761591E3D2008331A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E702B97A1591E3D2008331A9 /* modal-Info.plist */ = {isa = PBXFileReference; path = "modal-Info.plist"; sourceTree = "<group>"; };
+		E702B97A1591E3D2008331A9 /* modal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "modal-Info.plist"; sourceTree = "<group>"; };
 		E702B97C1591E3D2008331A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E702B97E1591E3D2008331A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E702B9801591E3D2008331A9 /* modal-Prefix.pch */ = {isa = PBXFileReference; path = "modal-Prefix.pch"; sourceTree = "<group>"; };
-		E702B9811591E3D2008331A9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E702B9801591E3D2008331A9 /* modal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "modal-Prefix.pch"; sourceTree = "<group>"; };
+		E702B9811591E3D2008331A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E702B9821591E3D2008331A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E702B9841591E3D2008331A9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		E702B9841591E3D2008331A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E702B9851591E3D2008331A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E702B9881591E3D2008331A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E702B98F1591E5C4008331A9 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		E702B9901591E5C4008331A9 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		E702B9911591E5C4008331A9 /* secondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 				E702B9841591E3D2008331A9 /* ViewController.h */,
 				E702B9851591E3D2008331A9 /* ViewController.m */,
 				E702B9871591E3D2008331A9 /* ViewController.xib */,
+				E702B98F1591E5C4008331A9 /* secondViewController.h */,
+				E702B9901591E5C4008331A9 /* secondViewController.m */,
+				E702B9911591E5C4008331A9 /* secondViewController.xib */,
 				E702B9791591E3D2008331A9 /* Supporting Files */,
 			);
 			path = modal;
@@ -150,6 +158,7 @@
 			files = (
 				E702B97D1591E3D2008331A9 /* InfoPlist.strings in Resources */,
 				E702B9891591E3D2008331A9 /* ViewController.xib in Resources */,
+				E702B9931591E5C4008331A9 /* secondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +172,7 @@
 				E702B97F1591E3D2008331A9 /* main.m in Sources */,
 				E702B9831591E3D2008331A9 /* AppDelegate.m in Sources */,
 				E702B9861591E3D2008331A9 /* ViewController.m in Sources */,
+				E702B9921591E5C4008331A9 /* secondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
